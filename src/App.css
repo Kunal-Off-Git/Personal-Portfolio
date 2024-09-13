@@ -187,7 +187,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100vw;
   top: 0;
   left: 0;
-  background-image: url("cover-image-2.jpg");
+  background-image: url("/cover-image-2.jpg");
   background-size: cover;
   z-index: -1;
   opacity: 0.7;
@@ -251,7 +251,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about-container::before {
   content: "";
   position: absolute;
-  background-image: url("background.jpg");
+  background-image: url("/background.jpg");
   /* filter: brightness(50%); */
   background-size: cover;
   height: 100vh;
