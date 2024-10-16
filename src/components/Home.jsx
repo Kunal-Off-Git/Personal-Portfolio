@@ -8,6 +8,10 @@ const Home = () => {
       style={{
         backgroundImage: `url("cover-image-2.jpg")`,
         backgroundSize: "cover",
+        height: "100vh",
+        width: "100vw",
+        opacity: "0.6",
+        zIndex: "-1",
       }}
     >
       <main class="px-3 ">
