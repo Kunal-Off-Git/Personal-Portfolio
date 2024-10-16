@@ -2,7 +2,11 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div class="cover-container cover" id="home">
+    <div
+      class="cover-container cover"
+      id="home"
+      style={{ backgroundImage: `url("cover-image-2.jpg")` }}
+    >
       <main class="px-3 ">
         <h1>Hi, I am Kunal.</h1>
         <p class="lead">
