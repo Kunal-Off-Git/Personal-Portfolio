@@ -5,7 +5,10 @@ const Home = () => {
     <div
       class="cover-container cover"
       id="home"
-      style={{ backgroundImage: `url("cover-image-2.jpg")` }}
+      style={{
+        backgroundImage: `url("cover-image-2.jpg")`,
+        backgroundSize: "cover",
+      }}
     >
       <main class="px-3 ">
         <h1>Hi, I am Kunal.</h1>

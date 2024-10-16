@@ -1,6 +1,13 @@
 const About = () => {
   return (
-    <div className="about-container" id="about">
+    <div
+      className="about-container"
+      id="about"
+      style={{
+        backgroundImage: `url("background.jpg")`,
+        backgroundSize: "cover",
+      }}
+    >
       {/* <h1>ABOUT</h1> */}
       <div className="container">
         <div className="row">
