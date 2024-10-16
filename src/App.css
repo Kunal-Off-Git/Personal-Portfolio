@@ -251,7 +251,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about-container::before {
   content: "";
   position: absolute;
-  background-image: url("./background.jpg");
+  background-image: url("background.jpg");
   /* filter: brightness(50%); */
   background-size: cover;
   height: 100vh;
